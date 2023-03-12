@@ -1,0 +1,93 @@
+body{
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+    
+}
+fieldset{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: auto;
+    text-align: left;
+    border: 1px ;
+    /* border-radius: 20px; */
+}
+h1{
+    color: white;
+    font-family: time new Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+#p1,#p2,#p3,#p4,#p5,#p6{
+    color: white;
+}
+/* div.navigation{
+    background-color: lightgray;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    
+}
+div.navigation a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 10px;
+} */
+table{
+    background-color: lightgreen ;
+    /* margin-top: -20%; */
+    border-radius: 20px;
+    width: 100%;
+}
+table tr td {
+    color: white;
+    text-align: center;
+    column-span: 4px;
+    border: 1px solid black;
+}
+
+b{
+    color: white;
+}
+h2,h3{
+    color: white;
+    text-align: center;
+    color: gold;
+}
+div.navigation{
+    display: grid;
+    height: 10px;
+    width: 200px;
+    position: relative;
+    margin-left: 30%;
+    animation-name: srunding;
+    margin-right: 30%;
+    animation-duration: 10s;
+}
+@keyframes srunding {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:500px; top:70px;}
+    75%  {background-color:green; left:0px; top:70px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+div.navigation{
+            
+    text-align: left;
+    
+    font-size: 20px;
+    /* background-color: lightsteelblue; */
+    font-family: Arial, Helvetica, sans-serif;
+             
+}
+div.navigation a{
+    display: inline-block;
+    color:white;
+    margin-right: 20px;
+    padding: 14px;
+    text-decoration: none;
+}
+div.navigation a:hover{
+    background-color: lightcyan;
+} 
